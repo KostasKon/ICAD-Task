@@ -20,6 +20,13 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
+And then:
+
+```json
+python manage.py createsuperuser
+```
+To create a user with admin privileges so that you can access the app in its entirety.
+
 Remove the git repo with this command on mac/linux:
 
 ```json
