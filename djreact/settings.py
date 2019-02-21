@@ -1,11 +1,7 @@
 import os
-import json
-
-with open ('/etc/config.json') as config_file:
-    config = json.load(config_file)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SECRET_KEY = config['SECRET_KEY']
+SECRET_KEY = 'YkKzEme9t&vT%RNFflleB@PT(daUSPfETu*ho)Sh)YeD0!0YyG'
 DEBUG = False
 ALLOWED_HOSTS = ['vm001.qweb.gr', '95.216.145.225', '127.0.0.1']
 
