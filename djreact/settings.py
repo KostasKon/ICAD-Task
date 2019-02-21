@@ -2,7 +2,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'YkKzEme9t&vT%RNFflleB@PT(daUSPfETu*ho)Sh)YeD0!0YyG'
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['vm001.qweb.gr', '95.216.145.225', '127.0.0.1']
 
 INSTALLED_APPS = [
